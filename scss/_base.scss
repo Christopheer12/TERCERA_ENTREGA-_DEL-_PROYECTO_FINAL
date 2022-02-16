@@ -1,0 +1,55 @@
+
+body{
+    font-size: 16px;
+}
+p{
+    margin:0;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    margin: 0%;
+}
+h2{
+    font-size: 3em;
+    text-align:center;
+  }
+  .h2__sub{
+    padding: 4rem;
+}
+
+h3{
+    padding: 2em;
+    font-size: 2.1em;
+    text-align: center;
+}
+main{
+    border: 0%;
+}
+$colores:(
+
+header:#444241,
+main:linear-gradient(#ffffff, #c9c9c9dc),
+footer:#dfdfdf,
+facebook:#3b5998,
+linkedin:#0e76a8 ,
+github:#171515,
+);
+
+%hovers___Footer{
+    transition:1s ;
+    transform: scale(2,2);
+    z-index: 100; 
+}
+
+
+@mixin carousel ($max-width, $width,$margin ){
+    
+    max-width: $width;
+    width: $width;
+    margin: $margin;
+}
+

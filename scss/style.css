@@ -1,0 +1,155 @@
+body {
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0%;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.h2__sub {
+  padding: 4rem;
+}
+
+h3 {
+  padding: 2em;
+  font-size: 2.1em;
+  text-align: center;
+}
+
+main {
+  border: 0%;
+}
+
+.facebook :hover, .linkedin :hover, .github :hover, .botonWhatsApp img:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+  z-index: 100;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  color: #444241;
+  font-size: 4.5em;
+  text-align: center;
+  background-image: url(../multimedia/giphy_fondo.gif);
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav li {
+  display: inline-block;
+}
+
+main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#c9c9c9dc));
+  background-image: linear-gradient(#ffffff, #c9c9c9dc);
+}
+
+.carousel {
+  max-width: 30%;
+  width: 30%;
+  margin: auto;
+}
+
+.carousel__index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+  width: 50%;
+  margin: auto;
+}
+
+.container__tabla {
+  border: solid 0,1em black;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (3em)[5];
+      grid-template-rows: repeat(5, 3em);
+  font-size: 1em;
+  text-align: center;
+}
+
+.container__tabla__precios {
+  border: solid 0.01em black;
+}
+
+.uno {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+footer {
+  background-color: #dfdfdf;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  left: 100%;
+  text-align: center;
+  font-size: 1.0em;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.facebook :hover {
+  color: #3b5998;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.linkedin :hover {
+  color: #0e76a8;
+}
+
+.github {
+  color: #171515;
+}
+
+.github :hover {
+  color: #171515;
+}
+
+.botonWhatsApp img {
+  position: fixed;
+  width: 4em;
+  bottom: 7em;
+  right: -0.2em;
+}
+/*# sourceMappingURL=style.css.map */

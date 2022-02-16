@@ -1,0 +1,24 @@
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: map-get($colores,header);
+    font-size: 4.5em;
+    text-align: center;
+    background-image: url(../multimedia/giphy_fondo.gif);
+}
+nav{
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        
+    }
+
+    li{
+        display: inline-block;
+    }
+}
+
+

@@ -1,0 +1,44 @@
+footer{
+   
+    background-color: map-get($colores, footer);   
+    position: sticky;
+    bottom:0 ;
+    left: 100%;
+    text-align: center;
+    font-size:1.0em ;
+    
+}
+
+ 
+.facebook{
+    color: map-get($colores , facebook) ;
+    :hover{
+        color: map-get($colores , facebook) ;
+        @extend %hovers___Footer;}
+}
+
+
+.linkedin {
+    color: map-get($colores , linkedin) ;
+    :hover{
+        color: map-get($colores , linkedin) ;
+        @extend %hovers___Footer;}
+}
+
+
+.github{
+    color: map-get($colores , github) ;
+    :hover{
+        color: map-get($colores , github) ;
+        @extend %hovers___Footer;}
+}
+
+
+.botonWhatsApp img{
+    position: fixed;
+    width: 4em;
+    bottom: 7em;
+    right: -0.2em;
+        &:hover{
+            @extend %hovers___Footer;}
+}
